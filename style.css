@@ -63,31 +63,32 @@ nav{
 .section-content{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .content-box{
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;    
-    width: 600px;
+    max-width: 600px;
     padding: 1.5em 1.5em;
     border: 2px solid gray;
     border-radius: 5px;
     justify-content: space-around;
 }
 .content-img-box{
-    width: 550px;
-    height: 350px;
+    max-width: 550px;
+    max-height: 350px;
 }
 .content-img-box img{
-    width: 550px;
-    height: 350px;
+    max-width: 550px;
+    max-height: 350px;
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
 .content-img-box img:hover{
-    width: 555px;
-    height: 355px;
+    max-width: 555px;
+    max-height: 355px;
     opacity: 0.7;
 }
 .content-button-box button{
@@ -100,10 +101,11 @@ nav{
     display: flex;
     justify-content: center;
     margin: 5em auto;
+    flex-wrap: wrap;
 }
 .container-item-gallery img{
-    width: 450px;
-    height: 250px;
+    max-width: 450px;
+    max-height: 250px;
     margin: 1em;
     cursor: pointer;
     position: relative;

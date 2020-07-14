@@ -1,0 +1,61 @@
+@media only screen and (max-width: 940px) {
+    nav{
+        height: auto;
+    }
+    .logo-box p{
+        width: auto;
+        font-size: 1.5em;
+    }
+    .menu li button{
+        font-size: 1.5em;
+        padding: 3px;
+        width: 90px;
+    }
+
+    .jumbotron-box img{
+        width: auto;
+        height: auto;
+    }
+  }
+
+@media only screen and (max-width: 660px) {
+    nav{
+        height: auto;
+    }
+    .logo-box p{
+        width: auto;
+        font-size: 1em;
+    }
+    .menu li{
+        margin: 5px;
+    }
+    .menu li button{
+        font-size: 1em;
+        padding: 3px;
+        width: 90px;
+    }
+    .jumbotron-box img{
+        width: auto;
+        height: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 435px) {
+    nav{
+        height: auto;
+    }
+    .logo-box p{
+        width: auto;
+        font-size: .5em;
+    }
+    .menu li button{
+        font-size: .5em;
+        padding: 3px;
+        width: 60px;
+    }
+    .jumbotron-box img{
+        width: auto;
+        height: auto;
+    }
+}
