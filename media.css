@@ -13,8 +13,11 @@
     }
 
     .jumbotron-box img{
-        width: auto;
-        height: auto;
+        max-width: 650px;
+        max-height: 380px;
+    }
+    footer{
+        font-size: 1.5em;
     }
   }
 
@@ -35,13 +38,24 @@
         width: 90px;
     }
     .jumbotron-box img{
-        width: auto;
-        height: auto;
+        max-width: 425px;
+        max-height: 250px;
+    }
+    .content-img-box img{
+        max-width: 450px;
+    }
+
+
+    footer{
+        font-size: 1em;
     }
     
 }
 
 @media only screen and (max-width: 435px) {
+    body{
+        overflow-x: hidden;
+    }
     nav{
         height: auto;
     }
@@ -55,7 +69,29 @@
         width: 60px;
     }
     .jumbotron-box img{
-        width: auto;
+        max-width: 345px;
         height: auto;
+    }
+    .container-item-gallery img{
+        max-width: 350px;
+        max-height: auto;
+    }
+    .content-img-box img{
+        max-width: 300px;
+    }
+    .content-box p {
+        font-size: .5em;    
+    }
+    .content-box button {
+        padding: .1em 1em;
+        font-size: .5em;
+    }
+    .content-img-box img:hover{
+        max-width: 300px;
+        max-height: auto;
+        opacity: 0.7;
+    }
+    footer{
+        font-size: .5em;
     }
 }

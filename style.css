@@ -127,6 +127,7 @@ footer{
     display: flex;
     justify-content: space-around;
     padding: 2em;
+    flex-wrap: wrap;
 }
 .footer-colum p{
     height: 25px;
